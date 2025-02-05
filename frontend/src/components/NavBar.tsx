@@ -11,8 +11,6 @@ export default function NavBar() {
                 <Link to="/" style={{ display: "flex", alignItems: "center", textDecoration: "none" }} >
                     <Box component="img" src={logo} alt="Logo" sx={{ height: 40, mr: 2 }} />
                 </Link>
-                HetesBar
-
                 <Box>
                     <Button color="inherit" component={Link} to="/about">About</Button>
                     <Button color="inherit" component={Link} to="/services">Services</Button>
